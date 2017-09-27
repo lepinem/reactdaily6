@@ -1,0 +1,43 @@
+
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: transparent;
+  position: static;
+  border: hidden;
+}
+
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+/*.form-control{
+  width: auto;
+}*/
+
+.former {
+  /*width: 35%;*/
+  align-items: center;
+  margin: 0 auto;
+}
+
+/*.solSet{
+  width: 50px;
+}*/
+.subSet{
+  width: auto;
+  margin: 0 auto;
+}
